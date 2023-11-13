@@ -1,0 +1,44 @@
+.linea {
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	gap: 10vw;
+	background-color: burlywood;
+	align-items: center;
+	font-size: xx-large;
+	text-decoration: none !important;
+	color: black !important;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+.content {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5vh;
+}
+#name {
+	height: 4vh;
+	text-align: center;
+}
+#btnPage {
+	height: 3vh;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	background-color: beige;
+	padding:2vh;
+	border-radius: 2vh;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
